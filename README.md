@@ -1,11 +1,12 @@
-# 1st CHALLENGE
-SCHOLARSHIP PROGRAM AWS REACT
+# 1st CHALLENGE SCHOLARSHIP PROGRAM AWS REACT
 
 # Sobre o projeto
 
+Primeiro desafio do programa de bolsas React & AWS da compass UOU
 
-## Layout mobile
+## Layout desktop e mobile
 
+https://www.figma.com/file/lb8YnlygMTI3RiAY8KKDCB/survey-form---desktop-type-(Community)
 
 # Tecnologias utilizadas
 
