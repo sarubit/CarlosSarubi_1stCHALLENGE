@@ -4,11 +4,15 @@
 
 Primeiro desafio do programa de bolsas React & AWS da compass UOU
 
-## Layout desktop e mobile
+## Layout mobile
+
+![Mobile 1](https://github.com/sarubit/CarlosSarubi_1stCHALLENGE/blob/main/assets/images/modeloMobile.png)
+
+## Layout desktop 
 
 ![Web 1](https://github.com/sarubit/CarlosSarubi_1stCHALLENGE/blob/main/assets/images/modeloDesktop.png)
 
-![Mobile 1](https://github.com/sarubit/CarlosSarubi_1stCHALLENGE/blob/main/assets/images/modeloMobile.png)
+## Todas as telas
 
 https://www.figma.com/file/lb8YnlygMTI3RiAY8KKDCB/survey-form---desktop-type-(Community)
 
