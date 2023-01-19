@@ -51,11 +51,12 @@
 }
 
 .text a {
-    margin: 1%;
+    padding: 1%;
+    margin: 3%;
     text-decoration: none;
     border: 0ch;
     position: relative;
-    width: 199px;
+    width: 210px;
     height: 35.55px;
     left: 800px;
     top: 550px;
