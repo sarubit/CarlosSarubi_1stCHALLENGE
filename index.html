@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Firt Challenge</title>
-        <link href="/assets/css/index.css" rel="stylesheet" media="all">
-    </head>
 
-    <body>
-        <section class="conteiner">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firt Challenge</title>
+    <link href="/assets/css/index.css" rel="stylesheet" media="all">
+</head>
 
-            <img src="/assets/images/index.png">
+<body>
 
-            <div class="text">
+    <section class="conteiner">
 
-                <h1> welcome </h1>
-                <h2>Thanks for participating in the poll</h2>
-                <a href="/pages/desktop1.html">let's go</a>
-        
-            </div>
-        </section>
-    </body>
+        <img src="/assets/images/index.png">
+
+        <div class="text">
+
+            <h1> welcome </h1>
+            <h2>Thanks for participating in the poll</h2>
+            <a href="/pages/desktop1.html" onmouseover="over();" onmouseout="out();" id="div">Let's go</a>
+
+        </div>
+    </section>
+
+
+    <script>
+        function over() {
+            document.getElementById("div").innerHTML = "Just Go Ahead";
+        }
+        function out() {
+            document.getElementById("div").innerHTML = "Let's go";
+        }
+    </script>
+
+</body>
+
 </html>
