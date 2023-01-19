@@ -14,54 +14,54 @@
 
 .conteiner img {
     position: absolute;
-    width: 431px;
-    height: 661px;
-    left: 212px;
-    top: 51px;
+    width: 552.51px;
+    height: 480.01px;
+    left: 87.49px;
+    top: 146px;
 }
 
 .text h1 {
     position: absolute;
-    width: 456px;
-    height: 106px;
-    left: 723px;
-    top: 231px;
+    width: 473px;
+    height: 101px;
+    left: 719px;
+    top: 223px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 111px;
-    line-height: 130px;
+    font-size: 39px;
+    line-height: 46px;
     text-align: center;
 }
 
 .text h2 {
     position: absolute;
-    width: 473px;
-    height: 47px;
-    left: 723px;
-    top: 381px;
+    width: 443px;
+    height: 169px;
+    left: 734px;
+    top: 338px;
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 34px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
     text-align: center;
 }
 
 .text a {
+    margin: 1%;
     text-decoration: none;
     border: 0ch;
-    position: absolute;
+    position: relative;
     width: 199px;
     height: 35.55px;
-    left: 864px;
-    top: 494px;
+    left: 800px;
+    top: 550px;
     background: #3EB25E;
     border-radius: 35px;
 
-    padding-top: 0.8%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
