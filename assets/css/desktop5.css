@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.conteiner {
+    position: relative;
+    width: 1280px;
+    height: 760px;
+    background: #FFFFFF;
+}
+
+.conteiner img {
+    position: absolute;
+    width: 552.51px;
+    height: 521.01px;
+    left: 87.49px;
+    top: 105px;
+}
+
+.name label {
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    left: 754px;
+    top: 177px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.name input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 459px;
+    height: 52px;
+    left: 744px;
+    top: 225px;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.email label {
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    left: 754px;
+    top: 304px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.email input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 459px;
+    height: 52px;
+    left: 744px;
+    top: 352px;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.age label {
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    left: 754px;
+    top: 428px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.age input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 152px;
+    height: 52px;
+    left: 744px;
+    top: 476px;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    text-align: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.text a {
+    text-decoration: none;
+    position: relative;
+    width: 199px;
+    height: 36px;
+    left: 734px;
+    top: 572px;
+    background: #3EB25E;
+    border-radius: 35px;
+
+    padding-top: 0.8%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text a:hover {
+    color: black;
+    background-color: #FFFF7D;
+}
