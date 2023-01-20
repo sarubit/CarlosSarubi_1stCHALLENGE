@@ -12,35 +12,35 @@
     background: #FFFFFF;
 }
 
+.conteiner textarea {
+    padding: 0.8rem;
+    box-sizing: border-box;
+    resize: none;
+    position: absolute;
+    width: 459px;
+    height: 225px;
+    left: 732px;
+    top: 285px;
+
+    font-size: 1.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
 .conteiner img {
     position: absolute;
     width: 552.51px;
-    height: 528.01px;
+    height: 521.01px;
     left: 87.49px;
-    top: 98px;
+    top: 105px;
 }
 
 .text h1 {
     position: absolute;
-    width: 404px;
-    height: 40px;
-    left: 734px;
-    top: 173px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-
-}
-
-.text h2 {
-    position: absolute;
-    width: 502px;
-    height: 70px;
-    left: 734px;
-    top: 302px;
+    width: 466px;
+    height: 100px;
+    left: 732px;
+    top: 175px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -74,36 +74,3 @@
     background-color: #FFFF7D;
 }
 
-.text form {
-    position: absolute;
-    width: 422px;
-    height: 156px;
-    left: 785px;
-    top: 384px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 30px;
-}
-
-label,
-input[type='submit'] {
-    display: block;
-    margin-top: 1px;
-}
-
-.conteiner select {
-    position: absolute;
-    width: 316px;
-    height: 35px;
-    left: 781px;
-    top: 230px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 30px;
-}
