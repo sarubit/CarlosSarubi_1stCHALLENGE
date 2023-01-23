@@ -5,128 +5,159 @@
     padding: 0%;
 }
 
-.conteiner {
-    position: relative;
-    width: 1280px;
-    height: 760px;
-    background: #FFFFFF;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    gap: 3rem;
 }
 
-.conteiner img {
-    position: absolute;
-    width: 552.51px;
-    height: 521.01px;
-    left: 87.49px;
-    top: 105px;
+
+.imagem img {
+    padding-top: 15%;
+    justify-items: center;
+    margin-left: 6%;
+    width: 40vmax;
+    text-align: center;
+}
+
+.text {
+    justify-items: left;
+    width: 45.5vmax;
+    text-align: center;
+}
+
+label {
+    margin-left: -34vmax;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vmax;
+    line-height: 3vmax;
+    margin-bottom: 1vmax;
+}
+
+input {
+    box-sizing: border-box;
+    width: 40vmax;
+    height: 5vmax;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
 .name label {
-    position: absolute;
-    width: 355px;
-    height: 40px;
-    left: 754px;
-    top: 177px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-}
-
-.name input {
-    box-sizing: border-box;
-    position: absolute;
-    width: 459px;
-    height: 52px;
-    left: 744px;
-    top: 225px;
-    padding: 0.8rem;
-    font-size: 1.3rem;
-
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.email label {
-    position: absolute;
-    width: 125px;
-    height: 40px;
-    left: 754px;
-    top: 304px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-}
-
-.email input {
-    box-sizing: border-box;
-    position: absolute;
-    width: 459px;
-    height: 52px;
-    left: 744px;
-    top: 352px;
-    padding: 0.8rem;
-    font-size: 1.3rem;
-
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.age label {
-    position: absolute;
-    width: 107px;
-    height: 40px;
-    left: 754px;
-    top: 428px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
+    margin-left: -30vmax !important; 
 }
 
 .age input {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 152px;
-    height: 52px;
-    left: 744px;
-    top: 476px;
-    padding: 0.8rem;
-    font-size: 1.3rem;
-    text-align: center;
-
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    margin-left: -34vmax !important; 
+    width: 6vmax !important;
 }
 
-.text a {
+.text button {
+    width: 80%;
+    margin-top: 3%;
     text-decoration: none;
-    position: relative;
-    width: 199px;
-    height: 36px;
-    left: 734px;
-    top: 572px;
+    border: 0ch;
     background: #3EB25E;
-    border-radius: 35px;
+    border-radius: 5.5vh;
+    text-align: center;
 
-    padding-top: 0.8%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+    font-size: 2vmax;
+    line-height: 3.5vmax;
     color: #FFFFFF;
 }
 
-.text a:hover {
+.text button:hover {
     color: black;
     background-color: #FFFF7D;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .imagem img {
+        justify-items: center;
+        margin-left: 0%;
+        width: 40vmax;
+        text-align: center;
+    }
+    
+    .text {
+        padding-top: 0%;
+        justify-items: center;
+        width: 45.5vmax;
+        text-align: center;
+    }
+
+    label {
+        margin-left: -34vmax;
+        text-align: left;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vmax;
+        line-height: 3vmax;
+        margin-bottom: 1vmax;
+    }
+    
+    input {
+        box-sizing: border-box;
+        width: 40vmax;
+        height: 5vmax;
+        padding: 0.8rem;
+        font-size: 1.3rem;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    
+    .name label {
+        margin-left: -30vmax !important; 
+    }
+    
+    .age input {
+        margin-left: -25vmax !important; 
+        width: 15vmax !important;
+    }
+    
+    .text button {
+        width: 80%;
+        margin-top: 3%;
+        text-decoration: none;
+        border: 0ch;
+        background: #3EB25E;
+        border-radius: 5.5vh;
+        text-align: center;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vmax;
+        line-height: 3.5vmax;
+        color: #FFFFFF;
+    }
+    
+    .text button:hover {
+        color: black;
+        background-color: #FFFF7D;
+    }
+
 }

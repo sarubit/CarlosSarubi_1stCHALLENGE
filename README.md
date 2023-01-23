@@ -22,7 +22,6 @@ https://www.figma.com/file/lb8YnlygMTI3RiAY8KKDCB/survey-form---desktop-type-(Co
 - JS
 - CSS
 - HTML
-- TypeScript
 
 # Autor
 
