@@ -214,7 +214,7 @@ input:checked {
         border: 1px solid black;
         width: 2vmax;
         height: 2vmax;
-        border-radius: 50%;
+    
         display: inline-block;
         background: #3EB25E;
         opacity: 30%;
