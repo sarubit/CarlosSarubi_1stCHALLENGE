@@ -48,9 +48,36 @@
     font-size: 2vmax;
 }
 
+form {
+    padding: 2%;
+    text-align: start;
+    justify-items: left;
+    font-size: 2.5vmax;
+    font-family: 'Roboto';
+}
+
+input {
+    all: unset;
+    border: 1px solid black;
+    width: 2vmax;
+    height: 2vmax;
+    border-radius: 50%;
+    display: inline-block;
+    background: #3EB25E;
+    opacity: 30%;
+    
+}
+
+input:checked {
+    background: #3EB25E;
+    opacity: 100%;
+    
+}
+
 .btn {
+    padding-top: 5%;
     display: flex;
-    gap: 3em;
+    gap: 1em;
 }
 
 .text button{
@@ -66,7 +93,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 2vmax;
-    line-height: 3.5vmax;
+    line-height: 3.7vmax;
     color: #FFFFFF;
 }
 
@@ -76,38 +103,61 @@
     bottom: auto;
 }
 
+.btn-2 button{
+    width: 100%;
+    margin-top: 1%;
+    text-decoration: none;
+    border: 0ch;
+    background: #3EB25E;
+    border-radius: 5.5vh;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vmax;
+    line-height: 3.5vmax;
+    color: #FFFFFF;
+}
+
+.btn-2 button:hover {
+    color: black;
+    background-color: #FFFF7D;
+}
+
+
 .custom-select {
-    position: absolute;
+    position: relative;
     display: grid;
-    grid-template-columns: 200vmax 50vmax;
+    grid-template-columns: 200px 50px;
     margin: 10px 0;
   }
   
 .custom-select select {
-    border-radius: 20vmax;
+    border-radius: 20px;
     appearance: none;
-    width: 35vmax;
-    height: 4.5vmax;
+    width: 30vmax;
     -webkit-appearance: none;
     -moz-appearance: none;
     padding: 10px;
     background-color: #f1f1f1;
-    padding-left: 5vmax;
+    padding-left: 40px;
     font-size: 1.7vmax;
     border: 2px solid rgba(0, 0, 0, 0.25);
   }
   
 .custom-select .select-arrow {
     position: absolute;
+    left: 15px;
     pointer-events: none;
-    align-items: flex-start;
+    align-self: center;
   }
   
 .custom-select .select-arrow svg {
     fill: #3EB25E;
     opacity: 30%;
-    width: 20vmax;
-    height: 1vmax;
+    width: 20px;
+    height: 20px;
   }
   
 .custom-select select:focus + .select-arrow svg {
@@ -129,35 +179,52 @@
         margin-top: 0%;
     }
     
-    .imagem img {
+    .text {
         justify-items: center;
-        margin-top: 15%;
-        margin-left: 0%;
         width: 45.5vmax;
         text-align: center;
     }
     
-    .text {
-        padding-top: 10%;
-        justify-items: center;
-        width: 45.5vmax;
-        text-align: center;
-    }
     .text h1 {
         font-family: 'Roboto';
         font-style: normal;
-        text-align: center;
+        text-align: left;
         font-weight: 700;
-        font-size: 3.5vmax;
+        font-size: 2vmax;
     }
     
     .text h2 {
-        padding-top: 5%;
         font-family: 'Roboto';
         font-style: normal;
-        text-align: center;
-        font-weight: 500;
-        font-size: 3vmax;
+        text-align: left;
+        font-weight: 700;
+        font-size: 2vmax;
+    }
+    
+    form {
+        padding: 2%;
+        text-align: start;
+        justify-items: left;
+        font-size: 2.5vmax;
+        font-family: 'Roboto';
+    }
+    
+    input {
+        all: unset;
+        border: 1px solid black;
+        width: 2vmax;
+        height: 2vmax;
+        border-radius: 50%;
+        display: inline-block;
+        background: #3EB25E;
+        opacity: 30%;
+        
+    }
+    
+    input:checked {
+        background: #3EB25E;
+        opacity: 100%;
+        
     }
     
     .btn {
@@ -188,5 +255,65 @@
         background-color: #FFFF7D;
         bottom: auto;
     }
-
+    
+    .btn-2 button{
+        width: 100%;
+        margin-top: 1%;
+        text-decoration: none;
+        border: 0ch;
+        background: #3EB25E;
+        border-radius: 5.5vh;
+        text-align: center;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vmax;
+        line-height: 3.5vmax;
+        color: #FFFFFF;
+    }
+    
+    .btn-2 button:hover {
+        color: black;
+        background-color: #FFFF7D;
+    }
+    
+    
+    .custom-select {
+        position: relative;
+        display: grid;
+        grid-template-columns: 200px 50px;
+        margin: 10px 0;
+      }
+      
+    .custom-select select {
+        border-radius: 20px;
+        appearance: none;
+        width: 30vmax;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 10px;
+        background-color: #f1f1f1;
+        padding-left: 40px;
+        font-size: 1.7vmax;
+        border: 2px solid rgba(0, 0, 0, 0.25);
+      }
+      
+    .custom-select .select-arrow {
+        position: absolute;
+        left: 15px;
+        pointer-events: none;
+        align-self: center;
+      }
+      
+    .custom-select .select-arrow svg {
+        fill: #3EB25E;
+        opacity: 30%;
+        width: 20px;
+        height: 20px;
+      }
+      
+    .custom-select select:focus + .select-arrow svg {
+        opacity: 100%;
+      }
 }

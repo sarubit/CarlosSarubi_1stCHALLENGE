@@ -25,11 +25,9 @@
                 <select>
                     <option selected disabled>Choose a type of investment</option>
                     <option value="new account">I have not invested yet.</option>
-                    <option value="waiting">Cryptocoin</option>
-                    <option value="denied">Savings account</option>
-                    <option value="denied">Certificate of deposit</option>
-                    <option value="denied">Exchange Traded Funds</option>
-                    <option value="denied">Treasuries</option>
+                    <option value="waiting">Example 1</option>
+                    <option value="denied">Example 2</option>
+                    <option value="denied">Example 3</option>
                 </select>
                 <div class="select-arrow">
                   <svg width="18" height="13" viewBox="0 0 18 13">
@@ -41,18 +39,21 @@
             <h2>In which financial markets do you operate?</h2>
 
             <div>
-                <form>
-                    <label><input name="origin" type="radio" value="1">Stock market</label>
-                    <label><input name="origin" type="radio" value="2">Foreign exchange</label>
-                    <label><input name="origin" type="radio" value="3">Commodity</label>
-                    <label><input name="origin" type="radio" value="4">Bond market</label>
-                    <label><input name="origin" type="radio" value="5">Cryptocurrency market</label>
+                <form action="desktop3.html">
+                    <label><input name="origin" type="radio" value="1" required>Stock market</label><br>
+                    <label><input name="origin" type="radio" value="2" required>Foreign exchange</label><br>
+                    <label><input name="origin" type="radio" value="3" required>Commodity</label><br>
+                    <label><input name="origin" type="radio" value="4" required>Bond market</label><br>
+                    <label><input name="origin" type="radio" value="5" required>Cryptocurrency market</label><br>
+
+                    <div class="btn">
+                        <button onclick="window.location.href = '/pages/desktop1.html'">Back</button>
+                        <button type="submit">Next</button>
+                    </div>
                 </form>
             </div>
 
-            <div>
-                <button onclick="window.location.href = '/pages/desktop1.html'">Back</button>
-                <button onclick="window.location.href = '/pages/desktop3.html'">Next</button>
+            <div class="btn-2">
                 <button onclick="window.location.href = '/pages/desktop3.html'">Skip</button>
             </div>
 
