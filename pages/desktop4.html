@@ -10,20 +10,29 @@
 
 <body>
 
-    <section class="conteiner">
+    <section class="container">
 
-        <img src="/assets/images/desktop4.png">
+        <div class="imagem">
+            <img src="/assets/images/desktop4.svg">
+        </div>
 
         <div class="text">
             <h1>If you or someone close to you has already made a
                 loss on the investment, write down the details</h1>
 
-            <textarea name="text" id="text" rows="8" maxlength="130"></textarea>
-
-            <a href="/pages/desktop3.html">Back</a>
-            <a href="/pages/desktop5.html">Next</a>
-            <a href="/pages/desktop5.html">Skip</a>
+            <form action="desktop5.html">
+                <textarea name="text" id="text" rows="8" maxlength="130" required></textarea>
+            
+                <div class="btn">
+                    <button onclick="window.location.href = '/pages/desktop3.html'">Back</button>
+                    <button type="submit">Next</button>
+                </div>
+            </form>
+            <div class="btn-2">
+                <button onclick="window.location.href = '/pages/desktop5.html'">Skip</button>
+            </div>
         </div>
+
     </section>
     <script src="/assets/javascript/index.js"></script>
 </body>

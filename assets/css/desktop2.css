@@ -5,107 +5,188 @@
     padding: 0%;
 }
 
-.conteiner {
-    position: relative;
-    width: 1280px;
-    height: 760px;
-    background: #FFFFFF;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
 }
 
-.conteiner img {
-    position: absolute;
-    width: 552.51px;
-    height: 528.01px;
-    left: 87.49px;
-    top: 98px;
+.container div {
+    margin-top: 0%;
+}
+
+.imagem img {
+    margin-top: 15%;
+    justify-items: center;
+    margin-left: 6%;
+    width: 45.5vmax;
+    text-align: center;
+}
+
+.text {
+    justify-items: center;
+    width: 45.5vmax;
+    text-align: center;
 }
 
 .text h1 {
-    position: absolute;
-    width: 470px;
-    height: 40px;
-    left: 708px;
-    top: 141px;
-
     font-family: 'Roboto';
     font-style: normal;
+    text-align: left;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-
+    font-size: 2vmax;
 }
 
 .text h2 {
-    position: absolute;
-    width: 511px;
-    height: 40px;
-    left: 731px;
-    top: 283px;
-
     font-family: 'Roboto';
     font-style: normal;
+    text-align: left;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
+    font-size: 2vmax;
 }
 
-.text a {
-    text-decoration: none;
-    position: relative;
-    width: 199px;
-    height: 36px;
-    left: 734px;
-    top: 572px;
-    background: #3EB25E;
-    border-radius: 35px;
+.btn {
+    display: flex;
+    gap: 3em;
+}
 
-    padding-top: 0.8%;
+.text button{
+    width: 49%;
+    text-decoration: none;
+    border: 0ch;
+    background: #3EB25E;
+    border-radius: 5.5vh;
+    text-align: center;
+
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+    font-size: 2vmax;
+    line-height: 3.5vmax;
     color: #FFFFFF;
 }
 
-.text a:hover {
+.text button:hover {
     color: black;
     background-color: #FFFF7D;
+    bottom: auto;
 }
 
-.text form {
+.custom-select {
     position: absolute;
-    width: 324px;
-    height: 211px;
-    left: 771px;
-    top: 329px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 42px;
-}
-
-label, input[type='submit'] {
-    display: block;
-    margin-top: 1px;
-}
-
-.conteiner select {
+    display: grid;
+    grid-template-columns: 200vmax 50vmax;
+    margin: 10px 0;
+  }
+  
+.custom-select select {
+    border-radius: 20vmax;
+    appearance: none;
+    width: 35vmax;
+    height: 4.5vmax;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    padding-left: 5vmax;
+    font-size: 1.7vmax;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+  }
+  
+.custom-select .select-arrow {
     position: absolute;
-    width: 470px;
-    height: 40px;
-    left: calc(50% - 470px/2 + 337px);
-    top: calc(50% - 40px/2 - 163px);
+    pointer-events: none;
+    align-items: flex-start;
+  }
+  
+.custom-select .select-arrow svg {
+    fill: #3EB25E;
+    opacity: 30%;
+    width: 20vmax;
+    height: 1vmax;
+  }
+  
+.custom-select select:focus + .select-arrow svg {
+    opacity: 100%;
+  }
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 32px;
-    text-align: center;
+@media screen and (max-width: 700px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto 0;
+        text-align: center;
+    }
+
+    .container div {
+        margin-top: 0%;
+    }
+    
+    .imagem img {
+        justify-items: center;
+        margin-top: 15%;
+        margin-left: 0%;
+        width: 45.5vmax;
+        text-align: center;
+    }
+    
+    .text {
+        padding-top: 10%;
+        justify-items: center;
+        width: 45.5vmax;
+        text-align: center;
+    }
+    .text h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 3.5vmax;
+    }
+    
+    .text h2 {
+        padding-top: 5%;
+        font-family: 'Roboto';
+        font-style: normal;
+        text-align: center;
+        font-weight: 500;
+        font-size: 3vmax;
+    }
+    
+    .btn {
+        padding-top: 5%;
+        display: flex;
+        gap: 1em;
+    }
+    
+    .text button{
+        width: 49%;
+        text-decoration: none;
+        border: 0ch;
+        background: #3EB25E;
+        border-radius: 5.5vh;
+        text-align: center;
+    
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vmax;
+        line-height: 3.7vmax;
+        color: #FFFFFF;
+    }
+    
+    .text button:hover {
+        color: black;
+        background-color: #FFFF7D;
+        bottom: auto;
+    }
+
 }

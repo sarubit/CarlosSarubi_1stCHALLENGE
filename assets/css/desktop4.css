@@ -1,77 +1,206 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
-.conteiner {
-    position: relative;
-    width: 1280px;
-    height: 760px;
-    background: #FFFFFF;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    gap: 3rem;
 }
 
-.conteiner textarea {
+
+.imagem img {
+    padding-top: 15%;
+    justify-items: center;
+    margin-left: 6%;
+    width: 45.5vmax;
+    text-align: center;
+}
+
+.text {
+    justify-items: center;
+    width: 45.5vmax;
+    text-align: center;
+}
+.text h1 {
+    padding-top: 18%;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    font-size: 2.5vmax;
+}
+
+.text textarea {
     padding: 0.8rem;
     box-sizing: border-box;
     resize: none;
-    position: absolute;
-    width: 459px;
-    height: 225px;
-    left: 732px;
-    top: 285px;
+    position: relative;
+    width: 40vmax;
+    height: 20vmax;
+   margin-top: 3%;
 
     font-size: 1.3rem;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
 
-.conteiner img {
-    position: absolute;
-    width: 552.51px;
-    height: 521.01px;
-    left: 87.49px;
-    top: 105px;
+.btn {
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    
 }
 
-.text h1 {
-    position: absolute;
-    width: 466px;
-    height: 100px;
-    left: 732px;
-    top: 175px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30px;
-}
-
-.text a {
+.btn button{
+    width: 40%;
     text-decoration: none;
-    position: relative;
-    width: 199px;
-    height: 36px;
-    left: 734px;
-    top: 572px;
+    border: 0ch;
     background: #3EB25E;
-    border-radius: 35px;
+    border-radius: 5.5vh;
+    text-align: center;
 
-    padding-top: 0.8%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+    font-size: 2vmax;
+    line-height: 3.5vmax;
     color: #FFFFFF;
 }
 
-.text a:hover {
+.btn button:hover {
     color: black;
     background-color: #FFFF7D;
 }
 
+
+.btn-2 button{
+    width: 92%;
+    margin-top: 5%;
+    text-decoration: none;
+    border: 0ch;
+    background: #3EB25E;
+    border-radius: 5.5vh;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vmax;
+    line-height: 3.5vmax;
+    color: #FFFFFF;
+}
+
+.btn-2 button:hover {
+    color: black;
+    background-color: #FFFF7D;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .imagem img {
+        justify-items: center;
+        margin-left: 0%;
+        width: 40vmax;
+        text-align: center;
+    }
+    
+    .text {
+        padding-top: 0%;
+        justify-items: center;
+        width: 45.5vmax;
+        text-align: center;
+    }
+
+    .text h1 {
+        padding-top: 0%;
+        font-family: 'Roboto';
+        font-style: normal;
+        text-align: left;
+        font-weight: 600;
+        font-size: 2.9vmax;
+    }
+    
+    .conteiner textarea {
+        padding: 0.8rem;
+        box-sizing: border-box;
+        resize: none;
+
+        font-size: 1.3rem;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        width: 10vmax;
+        height: 10vmax;
+        left: 10vmax;
+        top: 10vmax;
+    }
+    
+    .btn {
+        padding-top: 5%;
+        display: flex;
+        gap: 1em;
+    }
+    
+    .text button{
+        width: 49%;
+        text-decoration: none;
+        border: 0ch;
+        background: #3EB25E;
+        border-radius: 5.5vh;
+        text-align: center;
+    
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vmax;
+        line-height: 3.7vmax;
+        color: #FFFFFF;
+    }
+    
+    .text button:hover {
+        color: black;
+        background-color: #FFFF7D;
+        bottom: auto;
+    }
+
+    .btn-2 button{
+        width: 100%;
+        margin-top: 5%;
+        text-decoration: none;
+        border: 0ch;
+        background: #3EB25E;
+        border-radius: 5.5vh;
+        text-align: center;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vmax;
+        line-height: 3.5vmax;
+        color: #FFFFFF;
+    }
+    
+    .btn-2 button:hover {
+        color: black;
+        background-color: #FFFF7D;
+    }
+
+}
