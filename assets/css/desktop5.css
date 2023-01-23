@@ -124,7 +124,7 @@ input {
         width: 40vmax;
         height: 5vmax;
         padding: 0.8rem;
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         border: 1px solid rgba(0, 0, 0, 0.25);
         border-radius: 20px;
     }
